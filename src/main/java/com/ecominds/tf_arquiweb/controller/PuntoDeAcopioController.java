@@ -83,6 +83,3 @@ public class PuntoDeAcopioController {
         return new ResponseEntity<>(puntosDTO, HttpStatus.OK);
     }
 }
-
-// ================================
-

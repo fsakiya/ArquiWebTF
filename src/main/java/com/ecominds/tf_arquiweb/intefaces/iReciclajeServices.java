@@ -16,4 +16,5 @@ public interface iReciclajeServices {
     List<Reciclaje> findByFechaRange(LocalDate fechaInicio, LocalDate fechaFin);
     Double getTotalPesoPorUsuario(Integer usuarioId);
     Double getTotalPesoPorMaterial(Integer materialId);
-    List<Reciclaje>
+    List<Reciclaje> findByPesoMinimo(Double pesoMinimo);
+}
